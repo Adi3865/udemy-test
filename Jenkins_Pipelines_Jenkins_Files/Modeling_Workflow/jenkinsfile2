@@ -21,7 +21,7 @@ pipeline {
         stage('Deploy') {
             input {
                 message ' Deploy '
-                ok ' Not Deploy '
+                ok ' its okk '
                 parameters {
                     string(name: 'TARGET_ENVIRONMENT', defaultValue: 'Aditya', description: 'Target deployment environment')
                 }
